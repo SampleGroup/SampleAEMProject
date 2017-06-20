@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 @Properties({
 	
 	
-	//@Property(name="scheduler.expression", value="0 0/1  * * * ?")
+	//@Property(name="scheduler.expression", value="0 0/1  * * * ?")hemanthkumar
 	
 	@Property(name="schedular.period", longValue=60)
 	
