@@ -35,6 +35,10 @@ import java.io.IOException;
 @SlingServlet(resourceTypes = "myproject/structure/page")
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
+	
+	/**
+	 * This is modified
+	 */
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
